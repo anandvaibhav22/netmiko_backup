@@ -1,5 +1,5 @@
-IP_ADDRESS: ["10.114.34.157","10.114.34.156"]
-username : "admin"
-password : "Netseg2016"
+IP_ADDRESS: ["ip_address1_host,"ip_address2_host"]
+username : 
+password : 
 device_type : "cisco_nxos"
 send_commands: [show run,sh cdp neighbors,sh interface status,sh ip int brief,sh feature | in enabled]
